@@ -17,7 +17,7 @@ if (!defined('ICONV_INSTALLED')) {
 
 if (!defined('IS_CODEIGNITER')) {
     // A flag, telling that this code runs on CodeIgniter framework.
-    define('IS_CODEIGNITER', defined('BASEPATH') && defined('SYSPATH') && defined('APPPATH') && function_exists('get_instance'));
+    define('IS_CODEIGNITER', defined('BASEPATH') && defined('APPPATH') && defined('CI_VERSION') && function_exists('get_instance'));
 }
 
 class Transliterate {
