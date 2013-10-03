@@ -9,6 +9,8 @@ Simple examples:
 echo Transliterate::to_ascii('Фёдор Михайлович Достоевский', 'russian');
 // Result: Fedor Mihajlovich Dostoevskij
 
+echo '<br />';
+
 echo Transliterate::to_ascii('Фьодор Михайлович Достоевски', 'bulgarian');
 // Result: Fyodor Mihaylovitch Dostoevski
 ```
