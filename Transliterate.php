@@ -117,7 +117,7 @@ class Transliterate {
 
         if (IS_CODEIGNITER) {
 
-            if (!is_array($search)) {
+            if (!isset($search) || !is_array($search)) {
 
                 if (file_exists(APPPATH.'config/foreign_chars.php')) {
                     include(APPPATH.'config/foreign_chars.php');
