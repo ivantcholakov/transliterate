@@ -3,6 +3,8 @@
 /**
  * Transliteration class
  *
+ * @version 1.0
+ *
  * @author Ivan Tcholakov <ivantcholakov@gmail.com>, 2012-2013.
  * @link https://github.com/ivantcholakov/transliterate
  *
