@@ -12,7 +12,7 @@ echo Transliterate::to_ascii('Фёдор Михайлович Достоевск
 echo '<br />';
 
 echo Transliterate::to_ascii('Фьодор Михайлович Достоевски', 'bulgarian');
-// Result: Fyodor Mihaylovitch Dostoevski
+// Result: Fyodor Mihaylovich Dostoevski
 ```
 
 Example on CodeIgniter framework, making a slug for permalink creation:
