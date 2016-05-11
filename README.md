@@ -28,6 +28,6 @@ echo $product_slug;
 // Result: avtorsko-kolie-s-estestven-kamak-tyurkoaz
 ```
 
-Author: Ivan Tcholakov <ivantcholakov@gmail.com>, 2012-2015
+Author: Ivan Tcholakov <ivantcholakov@gmail.com>, 2012-2016
 
 License: The MIT License
