@@ -3,9 +3,9 @@
 /**
  * Transliteration class
  *
- * @version 1.1.1
+ * @version 1.1.2
  *
- * @author Ivan Tcholakov <ivantcholakov@gmail.com>, 2012-2016.
+ * @author Ivan Tcholakov <ivantcholakov@gmail.com>, 2012-2020.
  * @link https://github.com/ivantcholakov/transliterate
  *
  * @license The MIT License (MIT)
@@ -51,9 +51,6 @@ class Transliterate {
 
     private static $cyr_ru_additional_lower = array('в','кс','к','ё', 'я', 'ю', 'ь', 'ъ','ы');
     private static $lat_ru_additional_lower = array('w','x', 'q','yo','ja','ju','\'','`','y');
-
-    final private function __construct() {}
-    final private function __clone() {}
 
     /**
      * Converts cyrillic letters within a string into their ASCII equivalents.
