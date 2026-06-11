@@ -3,9 +3,9 @@
 /**
  * Transliteration Class
  *
- * @version 1.1.4
+ * @version 1.1.5
  *
- * @author Ivan Tcholakov <ivantcholakov@gmail.com>, 2012-2021.
+ * @author Ivan Tcholakov <ivantcholakov@gmail.com>, 2012-2026.
  * @link https://github.com/ivantcholakov/transliterate
  *
  * @license The MIT License (MIT)
@@ -485,7 +485,7 @@ class Transliterate {
                 break;
 
             case 'traditional-chinese':
-            case 'zh-hant';
+            case 'zh-hant':
             case 'zh-tw':
                 $l = 'zh-Hant';
                 break;
